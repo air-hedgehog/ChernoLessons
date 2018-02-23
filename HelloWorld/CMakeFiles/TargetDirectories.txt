@@ -1,3 +1,3 @@
-/home/antony/Projects/CppProjects/ChernoLessons/HelloWorld/CMakeFiles/rebuild_cache.dir
-/home/antony/Projects/CppProjects/ChernoLessons/HelloWorld/CMakeFiles/edit_cache.dir
-/home/antony/Projects/CppProjects/ChernoLessons/HelloWorld/CMakeFiles/HelloWorld.dir
+/home/antony/Dev/Cpp/ChernoLessons/HelloWorld/CMakeFiles/edit_cache.dir
+/home/antony/Dev/Cpp/ChernoLessons/HelloWorld/CMakeFiles/rebuild_cache.dir
+/home/antony/Dev/Cpp/ChernoLessons/HelloWorld/CMakeFiles/Helloworld.dir

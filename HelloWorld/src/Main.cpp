@@ -1,6 +1,7 @@
-#include <iostream>
+#include <stdio.h>
 
-int main() {
-    std::cout << "Hello World" << std::endl;
-    std::cin.get();
+int main()
+{
+    printf("Hello, world!\n");
+    return 0;
 }
