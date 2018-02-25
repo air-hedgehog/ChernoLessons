@@ -1,7 +1,10 @@
-#include <stdio.h>
+#include <iostream>
+
+//void Log(const char* message);
 
 int main()
 {
-    printf("Hello, world!\n");
-    return 0;
+	Log("Hello World!");
+	
+	std::cin.get();
 }
