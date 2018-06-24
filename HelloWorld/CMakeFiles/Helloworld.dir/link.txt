@@ -1,1 +1,0 @@
-/usr/bin/c++    -Wall -Werror -std=c++14 -g   CMakeFiles/Helloworld.dir/src/Main.cpp.o  -o Helloworld -rdynamic 

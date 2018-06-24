@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antony/Dev/Cpp/ChernoLessons/HelloWorld
+CMAKE_SOURCE_DIR = /home/antony/Dev/Cpp/HelloWorld
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antony/Dev/Cpp/ChernoLessons/HelloWorld
+CMAKE_BINARY_DIR = /home/antony/Dev/Cpp/HelloWorld
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antony/Dev/Cpp/ChernoLessons/HelloWorld/CMakeFiles /home/antony/Dev/Cpp/ChernoLessons/HelloWorld/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antony/Dev/Cpp/HelloWorld/CMakeFiles /home/antony/Dev/Cpp/HelloWorld/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antony/Dev/Cpp/ChernoLessons/HelloWorld/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antony/Dev/Cpp/HelloWorld/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Helloworld
+# Target rules for targets named HelloWorld
 
 # Build rule for target.
-Helloworld: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Helloworld
-.PHONY : Helloworld
+HelloWorld: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HelloWorld
+.PHONY : HelloWorld
 
 # fast build rule for target.
-Helloworld/fast:
-	$(MAKE) -f CMakeFiles/Helloworld.dir/build.make CMakeFiles/Helloworld.dir/build
-.PHONY : Helloworld/fast
+HelloWorld/fast:
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
+.PHONY : HelloWorld/fast
 
 src/Main.o: src/Main.cpp.o
 
@@ -129,7 +129,7 @@ src/Main.o: src/Main.cpp.o
 
 # target to build an object file
 src/Main.cpp.o:
-	$(MAKE) -f CMakeFiles/Helloworld.dir/build.make CMakeFiles/Helloworld.dir/src/Main.cpp.o
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Main.cpp.o
 .PHONY : src/Main.cpp.o
 
 src/Main.i: src/Main.cpp.i
@@ -138,7 +138,7 @@ src/Main.i: src/Main.cpp.i
 
 # target to preprocess a source file
 src/Main.cpp.i:
-	$(MAKE) -f CMakeFiles/Helloworld.dir/build.make CMakeFiles/Helloworld.dir/src/Main.cpp.i
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Main.cpp.i
 .PHONY : src/Main.cpp.i
 
 src/Main.s: src/Main.cpp.s
@@ -147,7 +147,7 @@ src/Main.s: src/Main.cpp.s
 
 # target to generate assembly for a file
 src/Main.cpp.s:
-	$(MAKE) -f CMakeFiles/Helloworld.dir/build.make CMakeFiles/Helloworld.dir/src/Main.cpp.s
+	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Helloworld"
+	@echo "... HelloWorld"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
